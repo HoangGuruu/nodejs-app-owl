@@ -4,7 +4,7 @@
 3. Utilizes GitHub Actions for Continuous Deployment (CD) to deploy the application to AWS ECS 
 4. Also integrate Infracstructure as Code to create ECR, ECS, and deploy on it with GitHub Action
 ## Diagram for project
-![3](https://github.com/HoangGuruu/nodejs-app-owl/assets/111829092/38ed6f48-4eaf-4614-a484-42d6ffa6eaa1)
+![ecs-ci-Trang-1 drawio](https://github.com/HoangGuruu/nodejs-app-owl/assets/111829092/0d81ca56-f408-49f4-bcdf-47f0a330db80)
 ### Link URL deploy on ECS 1 :
 http://lb-test-1203467790.us-east-1.elb.amazonaws.com/
 ### Link URL deploy on ECS_Terraform :
