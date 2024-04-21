@@ -5,3 +5,9 @@ npm-debug.log
 .env
 .DS_Store
 .env
+
+
+.terraform
+*.tfstate
+*.tfstate.backup
+
