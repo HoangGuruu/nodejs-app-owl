@@ -22,7 +22,7 @@ env:
 
   ECR_REPOSITORY_2: nodejs-app
   ECS_SERVICE_2: test-for-nodejsapp
-  ECS_CLUSTER_2: DevCluster
+  ECS_CLUSTER_2: demo-app-cluster
   # file, e.g. .aws/task-definition.json
 
 
