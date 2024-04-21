@@ -1,1 +1,5 @@
-![Diagram](https://github.com/HoangGuruu/nodejs-app-owl/images/2.png)
+# Solution : Golden Owl DevOps Internship - Technical Test
+## Diagram for project
+![2](https://github.com/HoangGuruu/nodejs-app-owl/assets/111829092/c8d096ef-68bd-40f6-a5f2-c8c838ab7ea7)
+
+![1](https://github.com/HoangGuruu/nodejs-app-owl/assets/111829092/46a13b56-7bc5-4958-ac5a-ceb079deae04)
