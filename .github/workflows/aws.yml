@@ -20,8 +20,8 @@ env:
   CONTAINER_NAME: nodejs-app
 
 
-  ECR_REPOSITORY_2: nodejs-app
-  ECS_SERVICE_2: test-for-nodejsapp
+  ECR_REPOSITORY_2: demo-app-ecr-repo
+  ECS_SERVICE_2: cc-demo-app-service
   ECS_CLUSTER_2: demo-app-cluster
   # file, e.g. .aws/task-definition.json
   CONTAINER_NAME_2: demo-app-task
