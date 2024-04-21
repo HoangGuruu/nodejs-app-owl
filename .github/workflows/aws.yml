@@ -25,6 +25,7 @@ env:
   ECS_CLUSTER_2: demo-app-cluster
   # file, e.g. .aws/task-definition.json
   CONTAINER_NAME_2: demo-app-task
+  ECS_TASK_DEFINITION_2: demo-app-task-revision1.json
 
 
 
@@ -116,7 +117,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@c804dfbdd57f713b6c079302a4c01db7017a36fc
       with:
-        task-definition: ${{ env.ECS_TASK_DEFINITION }}
+        task-definition: ${{ env.ECS_TASK_DEFINITION_2 }}
         container-name: ${{ env.CONTAINER_NAME_2 }}
         image: ${{ steps.build-image.outputs.image }}
 
