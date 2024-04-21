@@ -28,7 +28,6 @@ env:
   ECS_TASK_DEFINITION_2: demo-app-task-revision1.json
 
 
-
 jobs:
   deploy:
     name: Deploy
